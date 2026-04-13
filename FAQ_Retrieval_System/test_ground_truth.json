@@ -1,0 +1,254 @@
+[
+    {
+        "query": "How do I get a sick note for college?",
+        "target": "How do I get a medical certificate for university leave?"
+    },
+    {
+        "query": "Common signs of dengue",
+        "target": "What are the symptoms of dengue fever?"
+    },
+    {
+        "query": "Applying for company health insurance",
+        "target": "How do I apply for health insurance through my employer?"
+    },
+    {
+        "query": "What's the adult paracetamol amount?",
+        "target": "What is the correct dosage of paracetamol for adults?"
+    },
+    {
+        "query": "Getting a referral for a specialist",
+        "target": "How do I get a referral letter to see a specialist?"
+    },
+    {
+        "query": "Paperwork for hospital entry",
+        "target": "What documents are needed for hospital admission?"
+    },
+    {
+        "query": "Booking at a public clinic",
+        "target": "How can I book an appointment at a government hospital?"
+    },
+    {
+        "query": "General vs Specialist doctors",
+        "target": "What is the difference between a general physician and a specialist?"
+    },
+    {
+        "query": "Insurance payout for bills",
+        "target": "How do I claim reimbursement for medical expenses from my insurance?"
+    },
+    {
+        "query": "Vaccines for travel",
+        "target": "What vaccinations are required before travelling abroad?"
+    },
+    {
+        "query": "Disability card application",
+        "target": "What is the procedure for getting a disability certificate?"
+    },
+    {
+        "query": "Asking for another doctor's look",
+        "target": "How do I get a second medical opinion?"
+    },
+    {
+        "query": "Signing up for organ donation",
+        "target": "What is the procedure for organ donation registration?"
+    },
+    {
+        "query": "Viewing my records on smartphone",
+        "target": "How can I access my medical records online?"
+    },
+    {
+        "query": "Check-up for new job",
+        "target": "What is the process to get a fitness certificate for employment?"
+    },
+    {
+        "query": "Filing a consumer case online",
+        "target": "How do I file a consumer complaint in India?"
+    },
+    {
+        "query": "Recording an FIR at the station",
+        "target": "What is the process for registering an FIR with the police?"
+    },
+    {
+        "query": "Getting out on bail",
+        "target": "How do I apply for bail after arrest?"
+    },
+    {
+        "query": "Official land registration steps",
+        "target": "How do I register a property in India?"
+    },
+    {
+        "query": "My rights when detained",
+        "target": "What are my rights if I am arrested by the police?"
+    },
+    {
+        "query": "Ending a marriage legally",
+        "target": "How do I file for divorce in India?"
+    },
+    {
+        "query": "Drafting a legal warning",
+        "target": "How do I get a legal notice sent to someone?"
+    },
+    {
+        "query": "Making a testament for inheritance",
+        "target": "What is the process for making a will in India?"
+    },
+    {
+        "query": "Starting a private limited company",
+        "target": "How do I register a new company in India?"
+    },
+    {
+        "query": "Tenant protection from removal",
+        "target": "What are the tenant rights when facing eviction?"
+    },
+    {
+        "query": "Requesting info from govt",
+        "target": "How do I apply for an RTI (Right to Information)?"
+    },
+    {
+        "query": "Pre-arrest bail process",
+        "target": "What is anticipatory bail and how do I apply for it?"
+    },
+    {
+        "query": "Brand protection and logo signup",
+        "target": "How do I trademark my brand name in India?"
+    },
+    {
+        "query": "Adopting a baby in India",
+        "target": "What is the process to adopt a child in India?"
+    },
+    {
+        "query": "Suing for unfair firing",
+        "target": "How do I challenge a wrongful termination from my job?"
+    },
+    {
+        "query": "Factory reset my router",
+        "target": "How do I reset my forgotten Wi-Fi router password?"
+    },
+    {
+        "query": "Accidentally deleted my docs",
+        "target": "How do I recover deleted files from my computer?"
+    },
+    {
+        "query": "Laptop won't charge fix",
+        "target": "What should I do if my laptop is not charging?"
+    },
+    {
+        "query": "Setting up 2FA for security",
+        "target": "How do I set up two-factor authentication on my email account?"
+    },
+    {
+        "query": "Optimizing a slow phone",
+        "target": "How do I speed up a slow Android phone?"
+    },
+    {
+        "query": "Moving files to the cloud",
+        "target": "What is cloud storage and how do I use it?"
+    },
+    {
+        "query": "Virus protection for PC",
+        "target": "How do I protect my computer from viruses?"
+    },
+    {
+        "query": "WiFi connected but no internet",
+        "target": "How do I fix the 'No Internet Connection' error on Windows?"
+    },
+    {
+        "query": "Switching data to new phone",
+        "target": "How do I transfer data from my old phone to a new one?"
+    },
+    {
+        "query": "Password safety tips",
+        "target": "How do I create a strong password?"
+    },
+    {
+        "query": "Difference between memory and disk",
+        "target": "What is the difference between RAM and storage?"
+    },
+    {
+        "query": "Using a private VPN",
+        "target": "How do I set up a VPN on my device?"
+    },
+    {
+        "query": "Flickering screen issues",
+        "target": "How do I fix screen flickering on my laptop?"
+    },
+    {
+        "query": "Fixing Bluetooth on Windows",
+        "target": "How do I enable Bluetooth on my Windows laptop?"
+    },
+    {
+        "query": "Avoiding email scams",
+        "target": "What is phishing and how do I avoid it?"
+    },
+    {
+        "query": "Opening a Jan Dhan account",
+        "target": "How do I open a savings bank account in India?"
+    },
+    {
+        "query": "Checking my credit score",
+        "target": "What is a CIBIL score and how do I improve it?"
+    },
+    {
+        "query": "Filing ITR online",
+        "target": "How do I file my income tax return in India?"
+    },
+    {
+        "query": "Investing in SIPs",
+        "target": "How do I start investing in Mutual Funds?"
+    },
+    {
+        "query": "What is a fixed deposit?",
+        "target": "How do I open a savings bank account in India?"
+    },
+    {
+        "query": "Tips for academic success?",
+        "target": "How do I protect my 'GPA' during a difficult semester?"
+    },
+    {
+        "query": "Remote learning tips?",
+        "target": "Tell me about the importance of 'Digital Literacy' in the modern curriculum."
+    },
+    {
+        "query": "How to write an essay?",
+        "target": "How do I properly write an 'Annotated Bibliography'?"
+    },
+    {
+        "query": "VARK learning types?",
+        "target": "Can you describe the 'VARK' model of learning styles?"
+    },
+    {
+        "query": "Choosing a major?",
+        "target": "Can you explain the significance of 'Double Majoring'?"
+    },
+    {
+        "query": "Transferring to another college?",
+        "target": "Is there a safe way to 'Transfer' credits between universities?"
+    },
+    {
+        "query": "Early Action binding?",
+        "target": "What is 'Early Action' vs 'Early Decision' in college admissions?"
+    },
+    {
+        "query": "What to do for internship?",
+        "target": "How do I effectively manage an 'Internship' while in school?"
+    },
+    {
+        "query": "Networking as a student?",
+        "target": "What's the best way to 'Network' appropriately as a student?"
+    },
+    {
+        "query": "Plagiarism consequences?",
+        "target": "What are the key indicators of 'Academic Integrity'?"
+    },
+    {
+        "query": "Digital literacy skills?",
+        "target": "Tell me about the importance of 'Digital Literacy' in the modern curriculum."
+    },
+    {
+        "query": "Peer review basics?",
+        "target": "What's the recommended protocol for 'Peer Review' in writing workshops?"
+    },
+    {
+        "query": "University vs Certification?",
+        "target": "How can I differentiate between a 'Certificate' and a 'Certification'?"
+    }
+]
