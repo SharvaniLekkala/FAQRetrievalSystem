@@ -1,0 +1,7 @@
+# Large model files
+*.pkl
+*.txt
+
+# Specific folders
+FAQ_Retrieval_System/glove.840B.300d/
+FAQ_Retrieval_System/*.pkl
