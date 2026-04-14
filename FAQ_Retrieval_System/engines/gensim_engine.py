@@ -11,7 +11,7 @@ class GensimEngine(BaseEngine):
         
         model_map = {
             'glove': 'glove-wiki-gigaword-100',
-            'word2vec': 'word2vec-google-news-300'
+            'word2vec': 'glove-twitter-50'
         }
         print(f"Loading {model_type} model ({model_map[model_type]})... this may take a while.")
         self.model = api.load(model_map[model_type])

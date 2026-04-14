@@ -1,12 +1,23 @@
+import os
 from .base import BaseEngine
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from config import FINETUNED_SBERT_PATH
 
 class SBERTEngine(BaseEngine):
-    def __init__(self, faqs, model_name='all-MiniLM-L6-v2'):
+    def __init__(self, faqs, model_name='all-mpnet-base-v2'):
         super().__init__(faqs)
-        self.name = f"SBERT ({model_name})"
-        self.model = SentenceTransformer(model_name)
+        
+        # Prefer fine-tuned model if it exists
+        if os.path.exists(FINETUNED_SBERT_PATH):
+            print(f"Loading local fine-tuned SBERT model from: {FINETUNED_SBERT_PATH}")
+            self.model = SentenceTransformer(FINETUNED_SBERT_PATH)
+            self.name = "SBERT (Fine-tuned)"
+        else:
+            print(f"Loading pre-trained SBERT model: {model_name}")
+            self.model = SentenceTransformer(model_name)
+            self.name = f"SBERT ({model_name})"
+            
         self.faq_embeddings = None
 
     def train(self):

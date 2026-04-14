@@ -147,6 +147,19 @@ def main():
                     p1 = (metrics[name]['hits'] / len(test_cases)) * 100
                     mrr = (metrics[name]['rr_sum'] / len(test_cases))
                     print(f"{name.upper():<15} | {p1:>8.2f}%       | {mrr:>10.4f}")
+                print("-" * 80)
+                
+                # SBERT Specific Improvement Table
+                if 'sbert' in metrics:
+                    initial_p1, initial_mrr = 69.84, 0.7981
+                    current_p1 = (metrics['sbert']['hits'] / len(test_cases)) * 100
+                    current_mrr = (metrics['sbert']['rr_sum'] / len(test_cases))
+                    
+                    print(f"\n" + "📈 BERT FINE-TUNING IMPACT ANALYSIS ".center(80, "="))
+                    print(f"{'METRIC':<15} | {'BEFORE (Base)':<15} | {'AFTER (Tuned)':<15} | {'GAIN'}")
+                    print("-" * 80)
+                    print(f"{'P@1 Accuracy':<15} | {initial_p1:>12.2f}% | {current_p1:>12.2f}% | {current_p1-initial_p1:>+6.2f}%")
+                    print(f"{'MRR Score':<15} | {initial_mrr:>13.4f} | {current_mrr:>13.4f} | {current_mrr-initial_mrr:>+7.4f}")
                 print("=" * 80)
                 continue
 

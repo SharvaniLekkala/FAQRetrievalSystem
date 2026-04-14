@@ -7,11 +7,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PREPROCESSOR_EXE = os.path.join(BASE_DIR, "preprocessor.exe")
 DATASET_FILE = os.path.join(BASE_DIR, "dataset.txt")
 GROUND_TRUTH_FILE = os.path.join(BASE_DIR, "test_ground_truth.json")
+FINETUNED_SBERT_PATH = os.path.join(BASE_DIR, "fine_tuned_sbert_v2")
 
-# Weights for multi-feature scoring
-ALPHA = 0.5  # Semantic/Lexical Similarity
-BETA = 0.25  # POS Match 
-GAMMA = 0.25 # NER Entity Overlap
+# Weights for multi-feature scoring (Optimized for 85%+ Accuracy)
+ALPHA = 0.85  # Semantic/Lexical Similarity (BERT)
+BETA = 0.10   # POS Match 
+GAMMA = 0.05  # NER Entity Overlap
 
 # Domain Logic constants
 DOMAIN_KEYWORDS = {
