@@ -87,6 +87,25 @@ When you run `/evaluate`, the system calculates professional IR metrics:
 
 ---
 
+## 🛠️ Replication & Training (For Collaborators)
+
+If you have just cloned this repository, the system will use **pre-trained base models** by default (achieving ~76% accuracy). To replicate the professional-grade **92.06% accuracy**, you must locally train the SBERT engine:
+
+### 1. Generate Training Data
+Run the augmentation script to create a robust dataset of paraphrased query pairs:
+```bash
+python FAQ_Retrieval_System/fine_tuning/augment_data.py
+```
+
+### 2. Fine-Tune the SBERT Model
+Train the transformer model on the augmented dataset:
+```bash
+python FAQ_Retrieval_System/fine_tuning/train_sbert.py
+```
+*The model will be saved to `FAQ_Retrieval_System/fine_tuned_sbert_v2/` and will be automatically detected by the core orchestrator on the next run.*
+
+---
+
 ## 🚀 How to Run
 
 1.  **Install Dependencies**:
