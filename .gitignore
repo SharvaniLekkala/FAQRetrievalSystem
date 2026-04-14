@@ -1,14 +1,11 @@
 # Large model files
 *.pkl
-*.txt
-!requirements.txt
-!FAQ_Retrieval_System/requirements.txt
 *.safetensors
 *.bin
+# infersent1.pkl is ignored as it is 146MB (exceeds GitHub limit)
 
 # Specific folders
 FAQ_Retrieval_System/glove.840B.300d/
-FAQ_Retrieval_System/*.pkl
 FAQ_Retrieval_System/checkpoints/
 FAQ_Retrieval_System/fine_tuned_sbert_v2/
 
@@ -17,7 +14,6 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Scratch files
-FAQ_Retrieval_System/scratch/*.py
-!FAQ_Retrieval_System/scratch/eval_baseline.py
-!FAQ_Retrieval_System/scratch/check_domain_acc.py
+# Whitelist core data
+!*.txt
+!*.json
