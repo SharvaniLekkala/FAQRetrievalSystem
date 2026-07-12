@@ -127,4 +127,4 @@ python FAQ_Retrieval_System/faq_system.py
 └── .gitignore              # Repository safety and large file handling
 ```
 
-This project helped in understanding and implementing the conventional NLP techniques.
+This project helps us understand convontional NLP techniques and transformer models very clearly and their performance.
